@@ -195,7 +195,7 @@ p {
 
 .article {
   margin-bottom: 1rem;
-  position: relative;
+  display: flex;
 }
 
 .article__title {
@@ -217,8 +217,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
-  position: relative;
-  left: 0;
+  padding-right: 10px;
 }
 
 .article__read-more {
