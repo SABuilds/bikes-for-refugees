@@ -196,12 +196,16 @@ p {
 .article {
   margin-bottom: 1rem;
   display: flex;
+  position: relative;
+  border: 2px, solid, black
 }
 
 .article__title {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 700;
+  display: block;
+  padding-top: 10px;
 }
 
 .article__title-link {
@@ -217,7 +221,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
-  padding-right: 10px;
+  padding: 10px
 }
 
 .article__read-more {
