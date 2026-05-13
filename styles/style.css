@@ -122,12 +122,12 @@ p {
 
 .hero {
   background-image: url('../images/header-bike.jpg'); 
-  background-size: cover;
+  background-position: center;
+  width: auto;
   height: 362px;
-  width: fit-content;
   margin-bottom: 2rem;
   alt: 'bike up against a shed'; 
-  display: flex;
+  position: relative;
 }
 
 .hero h1 {
@@ -136,21 +136,34 @@ p {
   margin-top: 2rem;
   font-size: 2.5rem;
   color: #fff;
-  align-content: top;
+  padding-top: 80px;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   margin-left: 2rem;
-  align-content: ;
   color: #fff;
+  position: absolute;
+  top: 50%;
 }
 
-.hero button {
-  margin-bottom: 2rem;
+.hero__button--1st {
+  margin-bottom: 4rem;
+  position: absolute;
+  bottom: 0;
   margin-left: 2rem;
-  flex: row;
+  background-color: #c05326;
+  color: white;
+  height: 36px;
+}
+
+.hero__button--2nd {
+  margin-bottom: 4rem;
+  position: absolute;
+  bottom: 0;
+  margin-left: 12rem;
+  height: 36px;
 }
 
 
@@ -182,6 +195,7 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .article__title {
@@ -203,6 +217,8 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  position: relative;
+  left: 0;
 }
 
 .article__read-more {
