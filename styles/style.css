@@ -126,6 +126,16 @@ p {
   padding: 5px;
 }
 
+button:hover{
+  background-color: #fff;
+  color: #c05326;
+}
+
+.hero__button--2nd:hover{
+  background-color: #c05326; 
+  color: #fff;
+}
+
 /* Content */
 
 .content {
