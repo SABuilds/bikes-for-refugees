@@ -75,6 +75,11 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   padding: 5px;
+  transition: 300ms;
+}
+
+.navigation__link:hover{ 
+ color: #c05326;
 }
 
 
