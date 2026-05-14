@@ -98,6 +98,28 @@ p {
 
   /* INSERT BUTTON STYLES HERE */
 
+  .hero__button--1st {
+  margin-bottom: 4rem;
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
+  background-color: #c05326;
+  color: white;
+  height: 36px;
+}
+
+.hero__button--2nd {
+  margin-bottom: 4rem;
+  position: absolute;
+  bottom: 0;
+  margin-left: 12rem;
+  height: 36px;
+}
+.donate {
+  background-color: #c05326;
+  color: #fff;
+  padding: 5px;
+}
 
 /* Content */
 
@@ -149,23 +171,6 @@ p {
   top: 50%;
 }
 
-.hero__button--1st {
-  margin-bottom: 4rem;
-  position: absolute;
-  bottom: 0;
-  margin-left: 2rem;
-  background-color: #c05326;
-  color: white;
-  height: 36px;
-}
-
-.hero__button--2nd {
-  margin-bottom: 4rem;
-  position: absolute;
-  bottom: 0;
-  margin-left: 12rem;
-  height: 36px;
-}
 
 
 /* Headings */
@@ -204,6 +209,7 @@ p {
 .article2 {
   display: flex;
   gap: 10px;
+  margin-bottom: 1rem;
 }
 
 .article2__pt1 {
